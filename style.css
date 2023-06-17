@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.container-fluid{
+    margin-left: 100px;
+}
+.navbar-nav{
+    margin-left: 330px;
+}
+.fa-circle-chevron-right{
+    font-size: xx-large;
+    color: lightgray;
+}
+.fa-circle-chevron-left{
+    font-size: xx-large;
+    color:lightgray;
+}
+.div{
+    display: flex;
+}
+.div1{
+    display: flex;
+    gap: 50px;
+}
+@media screen  and (max-width:576px) {
+    body{
+        width: 100%;
+    }
+    .container-fluid{
+        margin-left: 0px;
+    }
+    .navbar-nav{
+        margin-left: 400px;
+    }
+    .div{
+        flex-direction: column;
+    }
+    .div1{
+        flex-direction: column;
+    }
+}
